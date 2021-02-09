@@ -22,7 +22,7 @@ const AppRouter = () => (
   <Router>
     <ScrollToTop />
     <Navbar />
-    <BottomBar />
+    {/* <BottomBar /> */}
     <Container>
       <Switch>
         <Route path="about" component={About} />

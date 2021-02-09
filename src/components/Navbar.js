@@ -1,27 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { LogoIcon, BitcoinDollar } from "./Icons";
+import { BsvLogo } from "./Icons";
 
 const Wrapper = styled.div`
   position: fixed;
   top: 0;
   left: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   background: ${(props) => props.theme.grey};
   z-index: 99;
   padding: 0.7rem 1.5rem;
-
-  input {
-    width: 500px;
-  }
-
-  .toggle-navhandler {
-    display: none;
-  }
 
   .logo span {
     position: relative;
@@ -103,21 +95,12 @@ const Navbar = () => {
 
   return (
     <Wrapper>
-      <div className="logo flex-row">
-
         <span>
-          <Link to="/"><LogoWrap><BitcoinDollar fill1="ef853b" fill2="#ef853b" height="36" /></LogoWrap></Link>
+          <Link to="/"><LogoWrap><BsvLogo fill1="#e2b43d" fill2="#fff" fill3="#e2b43d" fill4="#fff" fill5="#fff" fill6="#fff" fill7="#fff" fill8="#fff" fill9="#fff" height="60" /></LogoWrap></Link>
         </span>
-      </div>
 
-      <ul>
-        <li>
-          <h2>yo</h2>
-        </li>
-        <li>
-          <h2>yoyo</h2>
-        </li>
-      </ul>
+        {/* <div>About</div> */}
+
     </Wrapper>
   );
 };
