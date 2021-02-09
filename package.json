@@ -1,0 +1,23 @@
+{
+  "name": "bsv100",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "0.9.5",
+    "react-tooltip": "^4.2.13",
+    "styled-components": "^5.1.1",
+    "@emotion/react": "11.1.4",
+    "@emotion/styled": "11.0.0",
+    "react-flexbox-grid": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
