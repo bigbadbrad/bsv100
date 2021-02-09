@@ -96,7 +96,7 @@ const Navbar = () => {
   return (
     <Wrapper>
         <span>
-          <Link to="/"><LogoWrap><BsvLogo fill1="#e2b43d" fill2="#fff" fill3="#e2b43d" fill4="#fff" fill5="#fff" fill6="#fff" fill7="#fff" fill8="#fff" fill9="#fff" height="60" /></LogoWrap></Link>
+          <Link to="/"><LogoWrap><BsvLogo height="40"fill1="#e2b43d" fill2="#fff" fill3="#e2b43d" fill4="#fff" fill5="#fff" fill6="#fff" fill7="#fff" fill8="#fff" fill9="#fff" /></LogoWrap></Link>
         </span>
 
         {/* <div>About</div> */}

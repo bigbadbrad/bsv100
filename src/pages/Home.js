@@ -17,6 +17,11 @@ export const StyledHome = styled.div`
   padding-bottom: 7rem;
   padding-top: 5rem;
 
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+
   h2 {
     margin-bottom: 1rem;
     text-align: center;
@@ -52,7 +57,8 @@ const Home = () => {
   return (
     <StyledHome>
       <div>
-          <h2>Call it the ultimate cryto scorecard<br />    &nbsp;&nbsp;&nbsp;&nbsp;apps &gt; cryptocurrency price</h2><br />
+          <h2>Call it the ultimate cryto scorecard</h2>
+          <h1>apps &gt; cryptocurrency price</h1><br />
           <h3>Explore the top apps built on BitcoinSV</h3>
           <StyledLink><a href="https://TDXP.app">1. TDXP APP</a></StyledLink>< br/>
           <StyledLink><a href="https://twetch.app">3. Twetch</a></StyledLink>< br/>
@@ -68,7 +74,7 @@ const Home = () => {
           <StyledLink><a href="">12.</a></StyledLink>< br/>
           <StyledLink><a href="https://www.mattercloud.io">13. Matter Cloud</a></StyledLink>< br/>
           <StyledLink><a href="https://bsvapptesters.com">14. BSV APP TESTERS</a></StyledLink>< br/>
-          <h3>These are exciting times indeed.  There's something speical going on right now - some call it Web 3.0.  It feels a lot like the mid 90's when the Web was the new frontier and everyone had an idea and project.  We had a side project called the BAM Online 100 - it ranked the top websites that were commercializing this new thing called the Web.  It was popular for awhile until Jerry and his gang over at Stanford blazed right by us with Yahoo.  This project is a tribute to those amazing days in tech.</h3>
+          <h3>These are exciting times indeed.  There's something special going on right now - some call it Web 3.0.  It feels a lot like the mid 90's when the Web was the new frontier and everyone had an idea and project.  Many of us thought micropayments would take off; instead an ad model prevaled. We had a side project called the BAM Online 100 - it ranked the top websites that were commercializing a new thing called the Web.  It was popular for awhile until Jerry and his gang over at Stanford blazed right by us with Yahoo.  This project is a tribute to those amazing days in tech.</h3>
       </div>
 
       {/* <VideoGrid>
