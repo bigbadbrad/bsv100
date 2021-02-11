@@ -74,16 +74,16 @@ const Home = () => {
           <h2>Explore the top apps built on BitcoinSV</h2>
           <TextLeft>
           <StyledLink><a href="https://TDXP.app">1. TDXP APP</a></StyledLink>< br/>
-          <StyledLink><a href="https://twetch.app">3. Twetch</a></StyledLink>< br/>
-          <StyledLink><a href="https://relica.world">2. Relica</a></StyledLink>< br/>
-          <StyledLink><a href="https://t.co/2uD0nQK8K3?amp=1">4. ZBanknotes</a></StyledLink>< br/>
-          <StyledLink><a href="https://streamanity.com/">5. Streamanity</a></StyledLink>< br/>
-          <StyledLink><a href="https://gobitfundme.com/">6. GoBitFundMe</a></StyledLink>< br/>
-          <StyledLink><a href="https://www.playhaste.com/">7. Haste</a></StyledLink>< br/>
-          <StyledLink><a href="https://metastore.app/">8. MetaStore</a></StyledLink>< br/>
-          <StyledLink><a href="https://peergame.com">9. Peer Game</a></StyledLink>< br/>
-          <StyledLink><a href="https://koalament.io/">10. Koalament</a></StyledLink>< br/>
-          <StyledLink><a href="https://tonicpow.com">11. Tonic Pow</a></StyledLink>< br/>
+          <StyledLink><a href="https://twetch.app">2. Twetch</a></StyledLink>< br/>
+          <StyledLink><a href="https://relica.world">3. Relica</a></StyledLink>< br/>
+          <StyledLink><a href="https://tonicpow.com">4. Tonic Pow</a></StyledLink>< br/>
+          <StyledLink><a href="https://t.co/2uD0nQK8K3?amp=1">5. ZBanknotes</a></StyledLink>< br/>
+          <StyledLink><a href="https://streamanity.com/">6. Streamanity</a></StyledLink>< br/>
+          <StyledLink><a href="https://gobitfundme.com/">7. GoBitFundMe</a></StyledLink>< br/>
+          <StyledLink><a href="https://www.playhaste.com/">8. Haste</a></StyledLink>< br/>
+          <StyledLink><a href="https://metastore.app/">9. MetaStore</a></StyledLink>< br/>
+          <StyledLink><a href="https://peergame.com">10. Peer Game</a></StyledLink>< br/>
+          <StyledLink><a href="https://koalament.io/">11. Koalament</a></StyledLink>< br/>
           <StyledLink><a href="https://www.bitpost.app/">12. Bitpost</a></StyledLink>< br/>
           <StyledLink><a href="https://www.mattercloud.io">13. Matter Cloud</a></StyledLink>< br/>
           <StyledLink><a href="https://www.bitsurf.network/">14. BitSurf</a></StyledLink>< br/>
