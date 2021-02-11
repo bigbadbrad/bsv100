@@ -71,7 +71,7 @@ const Home = () => {
       <div>
           <h2>Call it the ultimate cryto scorecard</h2>
           <h1>apps &gt; cryptocurrency price</h1>
-          <h2>Explore the top apps built on BitcoinSV</h2>
+          <h2>Explore the top apps built on BitcoinSV *</h2>
           <TextLeft>
           <StyledLink><a href="https://TDXP.app">1. TDXP APP</a></StyledLink>< br/>
           <StyledLink><a href="https://twetch.app">2. Twetch</a></StyledLink>< br/>
@@ -85,12 +85,13 @@ const Home = () => {
           <StyledLink><a href="https://peergame.com">10. Peer Game</a></StyledLink>< br/>
           <StyledLink><a href="https://koalament.io/">11. Koalament</a></StyledLink>< br/>
           <StyledLink><a href="https://www.bitpost.app/">12. Bitpost</a></StyledLink>< br/>
-          <StyledLink><a href="https://www.mattercloud.io">13. Matter Cloud</a></StyledLink>< br/>
+          <StyledLink><a href="https://weathersv.app/">13. Weather SV</a></StyledLink>< br/>
           <StyledLink><a href="https://www.bitsurf.network/">14. BitSurf</a></StyledLink>< br/>
           <StyledLink><a href="https://www.castr.fm/">15. Castr</a></StyledLink>< br/>
-          
+          <StyledLink>...</StyledLink>
           </TextLeft>
           <h3>These are exciting times indeed.  There's something special going on right now - some call it Web 3.0.  It feels a lot like the mid 90's when the Web was the new frontier and everyone had an idea and project.  We had a side project called the BAM Online 100 - it ranked the top websites that were commercializing a new thing called the Web.  It was popular for awhile until Jerry and his gang over at Stanford blazed right by us with Yahoo.  This project is a tribute to those amazing days in tech.</h3>
+          <h3>* BSV infrastructure apps were not included in the list.  Perhaps an Infrastructure tab can be added.</h3>
       </div>
 
       {/* <WebsiteGrid>
